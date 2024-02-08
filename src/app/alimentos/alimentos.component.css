@@ -1,0 +1,47 @@
+div {
+    max-width: 1200px;
+    font-size: 20px;
+    margin:0 auto;
+}
+
+h1{
+    color: rgb(15, 130, 224);
+    text-align: center;
+}
+
+h2 {
+    color: rgb(74, 151, 214)
+}
+p, li{
+    color: white;
+    margin-right: 6%;
+    margin-left: 6%;
+}
+
+
+body{
+    background-color: black;
+    margin: 0;
+}
+
+nav{
+    overflow: hidden;
+    background-color: rgb(15, 224, 213);
+    display: flex;
+    justify-content: center;
+    padding: 15px 10px;
+}
+
+nav button {
+    padding: 10px 15px;
+    margin: 0 15px;
+    border: none;
+    background-color: rgb(15, 224, 213);
+    color: black;
+    font-size: 35px;
+}
+
+nav button:hover {
+    background-color: rgb(15, 130, 224);
+    color: white; 
+}

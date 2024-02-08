@@ -1,0 +1,65 @@
+.utensilios {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.utensilio {
+    text-align: left;
+    margin: 20px;
+    max-width: 200px;
+}
+.Cocinero img {
+    max-width: 200px;
+    height: auto;
+    margin-bottom: 10px;
+    border-radius: 30%;
+}
+
+div {
+    max-width: 900px;
+    font-size: 20px;
+    margin:0 auto;
+    text-align: center;
+}
+
+h1, h2{
+    color: white;
+    text-align: center;
+}
+
+
+p {
+    color: white;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+
+body{
+    background-color: black;
+    margin: 0;
+}
+
+nav{
+    overflow: hidden;
+    background-color: rgb(169, 45, 194);
+    display: flex;
+    justify-content: center;
+    padding: 15px 10px;
+}
+
+nav button {
+    padding: 10px 15px;
+    margin: 0 15px;
+    border: none;
+    background-color: rgb(169, 45, 194);
+    color: black;
+    font-size: 35px;
+}
+
+nav button:hover {
+    background-color: rgb(235, 138, 255);
+    color: white; 
+}

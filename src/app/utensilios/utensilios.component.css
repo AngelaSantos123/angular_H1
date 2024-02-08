@@ -1,0 +1,65 @@
+.utensilios {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.utensilio {
+    text-align: left;
+    margin: 10px;
+    max-width: 200px;
+}
+.utensilio img {
+    max-width: 100px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+div {
+    max-width: 1200px;
+    font-size: 20px;
+    margin:0 auto;
+    text-align: center;
+}
+
+h1{
+    color: rgb(83, 21, 226);
+    text-align: center;
+}
+
+h2 {
+    color: rgb(143, 109, 221);
+}
+p, li{
+    color: white;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+
+body{
+    background-color: black;
+    margin: 0;
+}
+
+nav{
+    overflow: hidden;
+    background-color: rgb(108, 60, 221);
+    display: flex;
+    justify-content: center;
+    padding: 15px 10px;
+}
+
+nav button {
+    padding: 10px 15px;
+    margin: 0 15px;
+    border: none;
+    background-color: rgb(108, 60, 221);
+    color: black;
+    font-size: 35px;
+}
+
+nav button:hover {
+    background-color: rgb(155, 121, 236);
+    color: white; 
+}

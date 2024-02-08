@@ -1,0 +1,44 @@
+h1{
+    color: rgb(252, 93, 1);
+    text-align: center;
+}
+
+h2 {
+    color: rgb(247, 154, 100);
+    margin-right: 10%;
+    margin-left: 10%;
+
+}
+p, li{
+    color: white;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+
+body{
+    background-color: black;
+    margin: 0;
+}
+
+nav{
+    overflow: hidden;
+    background-color: rgb(255, 241, 51);
+    display: flex;
+    justify-content: center;
+    padding: 15px 10px;
+}
+
+nav button {
+    padding: 10px 15px;
+    margin: 0 15px;
+    border: none;
+    background-color: rgb(255, 241, 51);
+    color: black;
+    font-size: 35px;
+}
+
+nav button:hover {
+    background-color: rgba(116, 109, 22, 0.486);
+    color: white; 
+}
