@@ -1,4 +1,4 @@
-div {
+/* div {
     max-width: 1200px;
     font-size: 20px;
     margin:0 auto;
@@ -57,4 +57,84 @@ nav button:hover {
 
 img{
     align-items: center;
+}
+*/
+
+
+body {
+    background-color: black;
+    margin: 0;
+    font-size: 16px; 
+}
+
+div {
+    max-width: 100%; 
+    padding: 0 20px; 
+    margin: 0 auto;
+    text-align: left;
+}
+
+.alinear {
+    margin-top: 4%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 2em;
+    text-align: center;
+    color: rgb(15, 224, 15);
+}
+
+h2 {
+    color: rgb(96, 247, 96);
+    margin-left: 1%;
+    font-size: 1.5em; 
+}
+
+p, li {
+    color: white;
+}
+
+nav {
+    overflow: hidden;
+    background-color: rgb(15, 224, 15);
+    display: flex;
+    justify-content: center;
+    padding: 1em;
+}
+
+nav button {
+    padding: 0.5em 1em;
+    margin: 0 0.5em; 
+    border: none;
+    background-color: rgb(15, 224, 15);
+    color: black;
+    font-size: 1.5em; 
+}
+
+nav button:hover {
+    background-color: rgba(17, 70, 17, 0.7);
+    color: white;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto; 
+}
+
+@media screen and (max-width: 768px) {
+    h2, p, li {
+        margin-right: 5%;
+        margin-left: 5%;
+    }
+    h1 {
+        font-size: 1.5em;
+    }    
+    nav button {
+        font-size: 0.75em;
+    }
 }

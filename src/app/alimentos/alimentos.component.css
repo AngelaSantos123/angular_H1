@@ -1,47 +1,69 @@
-div {
-    max-width: 1200px;
-    font-size: 20px;
-    margin:0 auto;
+body {
+    background-color: black;
+    margin: 0;
+    font-size: 16px;
 }
 
-h1{
+div.alimentos {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+div.grupo {
+    flex: 1;
+    max-width: 300px;
+    margin: 20px;
+}
+
+h1 {
     color: rgb(15, 130, 224);
     text-align: center;
 }
 
 h2 {
-    color: rgb(74, 151, 214)
+    color: rgb(74, 151, 214);
 }
-p, li{
+
+p, li {
     color: white;
     margin-right: 6%;
     margin-left: 6%;
 }
 
-
-body{
-    background-color: black;
-    margin: 0;
-}
-
-nav{
+nav {
     overflow: hidden;
     background-color: rgb(15, 224, 213);
     display: flex;
     justify-content: center;
-    padding: 15px 10px;
+    padding: 1em;
 }
 
 nav button {
-    padding: 10px 15px;
-    margin: 0 15px;
+    padding: 0.5em 1em;
+    margin: 0 0.5em; 
     border: none;
     background-color: rgb(15, 224, 213);
     color: black;
-    font-size: 35px;
+    font-size: 1.5em;
 }
 
 nav button:hover {
     background-color: rgb(15, 130, 224);
-    color: white; 
+    color: white;
+}
+
+@media screen and (max-width: 768px) {
+    div.grupo {
+        max-width: 100%;
+    }
+    h1 {
+        font-size: 1.5em;
+    }    
+    nav button {
+        font-size: 0.75em;
+    }
 }

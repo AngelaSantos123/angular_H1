@@ -10,56 +10,54 @@
     margin: 20px;
     max-width: 200px;
 }
+
 .Cocinero img {
-    max-width: 200px;
+    max-width: 100%;
     height: auto;
     margin-bottom: 10px;
     border-radius: 30%;
 }
 
+body {
+    background-color: black;
+    margin: 0;
+    font-size: 16px; 
+}
+
 div {
-    max-width: 900px;
-    font-size: 20px;
-    margin:0 auto;
-    text-align: center;
+    max-width: 100%; 
+    padding: 0 20px; 
+    margin: 0 auto;
+    text-align: center; 
 }
 
-h1, h2{
+h1, h2 {
     color: white;
-    text-align: center;
 }
-
 
 p {
     color: white;
-    margin-right: 10%;
-    margin-left: 10%;
+    margin: 0 10%; 
 }
 
-
-body{
-    background-color: black;
-    margin: 0;
-}
-
-nav{
+nav {
     overflow: hidden;
     background-color: rgb(169, 45, 194);
     display: flex;
     justify-content: center;
-    padding: 15px 10px;
+    padding: 1em;
 }
 
 nav button {
-    padding: 10px 15px;
-    margin: 0 15px;
+    padding: 0.5em 1em;
+    margin: 0 0.5em; 
     border: none;
     background-color: rgb(169, 45, 194);
     color: black;
-    font-size: 35px;
+    font-size: 1.5em;
 }
 
 nav button:hover {
     background-color: rgb(235, 138, 255);
-    color: white; 
+    color: white;
 }
